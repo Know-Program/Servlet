@@ -1,0 +1,44 @@
+<web-app>
+	<!--Servlet Configuration-->
+	<servlet>
+		<servlet-name>excel</servlet-name>
+		<servlet-class>com.kp.servlet.ExcelServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>html</servlet-name>
+		<servlet-class>com.kp.servlet.HTMLServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>plain</servlet-name>
+		<servlet-class>com.kp.servlet.PlainServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>word</servlet-name>
+		<servlet-class>com.kp.servlet.WordServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>xml</servlet-name>
+		<servlet-class>com.kp.servlet.XMLServlet</servlet-class>
+	</servlet>
+	<!--Servlet Mapping-->
+	<servlet-mapping>
+		<servlet-name>excel</servlet-name>
+		<url-pattern>/exceltest</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>html</servlet-name>
+		<url-pattern>/htmltest</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>plain</servlet-name>
+		<url-pattern>/plaintest</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>word</servlet-name>
+		<url-pattern>/wordtest</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>xml</servlet-name>
+		<url-pattern>/xmltest</url-pattern>
+	</servlet-mapping>
+</web-app>

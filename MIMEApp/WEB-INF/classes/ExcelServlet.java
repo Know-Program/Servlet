@@ -9,7 +9,7 @@ import java.util.*;
 public class ExcelServlet extends HttpServlet {
 	public void service(HttpServletRequest req, HttpServletResponse res)
 	            throws ServletException, IOException {
-        // set content type
+            // set content type
 	    res.setContentType("application/vnd.ms-excel");
 
 	    // get printwriter 

@@ -1,0 +1,12 @@
+<web-app>
+   <servlet>
+      <servlet-name>wish</servlet-name>
+      <servlet-class>com.kp.servlet.WishServlet</servlet-class>
+   </servlet>
+
+   <servlet-mapping>
+      <servlet-name>wish</servlet-name>
+      <url-pattern>/page.html</url-pattern>
+      <!--<url-pattern>/getwish</url-pattern>-->
+   </servlet-mapping>
+</web-app>

@@ -1,0 +1,10 @@
+<web-app>
+   <servlet>
+      <servlet-name>vote</servlet-name>
+      <servlet-class>com.kp.servlet.CheckVoterServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>vote</servlet-name>
+      <url-pattern>/checkvoter</url-pattern>
+   </servlet-mapping>
+</web-app>

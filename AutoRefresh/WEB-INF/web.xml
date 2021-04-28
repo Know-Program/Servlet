@@ -1,0 +1,11 @@
+<web-app>
+   <servlet>
+      <servlet-name>auto</servlet-name>
+      <servlet-class>com.kp.servlet.AutoRefreshServlet</servlet-class>
+   </servlet>
+
+   <servlet-mapping>
+      <servlet-name>auto</servlet-name>
+      <url-pattern>/auto</url-pattern>
+   </servlet-mapping>
+</web-app>

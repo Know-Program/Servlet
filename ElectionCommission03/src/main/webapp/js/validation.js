@@ -3,6 +3,12 @@
  * Form validation.
  */
 function validate(frm) {
+    /* REMOVE COMMENT FROM THE BELOW TWO LINES
+     * AFTER KNOWING THE PROBLEM.
+     */
+	// document.getElementById("pnameErr").innerHTML="";
+	// document.getElementById("pageErr").innerHTML="";
+	
 	//read from data
 	var name = frm.pname.value;
 	var age = frm.page.value;

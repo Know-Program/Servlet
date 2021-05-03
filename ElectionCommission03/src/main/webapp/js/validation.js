@@ -2,6 +2,7 @@
  * JavaScript code for Client Side
  * Form validation.
  */
+ 
 function validate(frm) {
     /* REMOVE COMMENT FROM THE BELOW TWO LINES
      * AFTER KNOWING THE PROBLEM.

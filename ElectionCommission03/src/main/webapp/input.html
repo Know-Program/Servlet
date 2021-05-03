@@ -1,0 +1,18 @@
+<head>
+<script type="text/javascript" src=js/validation.js>
+</script>
+</head>
+<body>
+	<div style='text-align: center'>
+		<h1 style='color: blue'>Election Commission</h1>
+		<form action="checkvoter" method="post" 
+		       onsubmit="return validate(this)">
+			Name: <input type="text" name="pname"><span
+				style="color: red" id="pnameErr"></span><br><br>
+			Age: <input type="password" name="page"><span
+				style="color: red" id="pageErr"></span><br><br> 
+			<input type="submit" value="Check Voting eligibility">
+			<input type="reset" value="Cancel">
+		</form>
+	</div>
+</body>

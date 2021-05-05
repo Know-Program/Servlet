@@ -19,9 +19,9 @@ public class LangServlet extends HttpServlet {
 		String creators[] = null;
 
 		// creators
-		creators = new String[] { "Dennis Ritchie", 
-				"Bjarne Stroustrup", "James Gosling", 
-				"Guido van Rossum", "Rasmus Lerdorf"};
+		creators = new String[] { 
+				"Dennis Ritchie", "Bjarne Stroustrup", 
+				"James Gosling", "Guido van Rossum"};
 
 		// set content type
 		resp.setContentType("text/html");

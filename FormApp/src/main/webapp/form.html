@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1, h3 {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #dddddd;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+</style>
+</head>
+<body>
+	<h1>Application Form</h1>
+	<div>
+		<h3>Enter Your Personal Details</h3>
+		<form action="formurl" method="POST">
+			<table>
+				<tr>
+					<td>NAME</td>
+					<td><input type="text" name="pname"></td>
+				</tr>
+				<tr>
+					<td>AGE</td>
+					<td><input type="password" name="page"></td>
+				</tr>
+				<tr>
+					<td>GENDER</td>
+					<td><input type="radio" name="gender" value="m">Male <input
+						type="radio" name="gender" value="f">Female <input
+						type="radio" name="gender" value="o">Other</td>
+				</tr>
+				<tr>
+					<td>ADDRESS</td>
+					<td><textarea rows="4" cols="20" name="add">Enter Address</textarea></td>
+				</tr>
+				<tr>
+					<td>MARITAL STATUS</td>
+					<td><input type="checkbox" name="ms" value="married">Married</td>
+				</tr>
+				<tr>
+					<td>QUALIFICATION</td>
+					<td><select name="qlfy">
+							<option value="science">Bachelor of Science</option>
+							<option value="medical">MD/MBBS</option>
+							<option value="commerce">B.Com</option>
+							<option value="arts">B.A</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>HOBBIES</td>
+					<td><input type="checkbox" name="hb" value="sports">Playing
+						Sports<br> <input type="checkbox" name="hb" value="read">Reading
+						Writing Books and Articles <br> <input type="checkbox"
+						name="hb" value="draw">Drawing, Sketching and Painting <br>
+						<input type="checkbox" name="hb" value="travel">Traveling
+						<br> <input type="checkbox" name="hb" value="cook">Cooking
+						and Baking<br> <input type="checkbox" name="hb" value="other">Other</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="SUBMIT FORM"></td>
+					<td><input type="reset" value="CANCEL"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

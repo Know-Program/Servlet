@@ -1,0 +1,22 @@
+<head>
+<script type="text/javascript">
+function send(){
+	frm.submit();
+}
+</script>
+</head>
+<body>
+	<h1 style='text-align: center'>HTML to Servlet using JavaScript</h1>
+	<h2 style='text-align: center'>Select Programming Language and Get
+		Creator Name</h2>
+	<form action='langurl' name='frm' method='post'>
+		Select Country :: <select name='language' onchange='send()'>
+			<option value='' selected>--Select--</option>
+			<option value='0'>C</option>
+			<option value='1'>C++</option>
+			<option value='2'>Java</option>
+			<option value='3'>Python</option>
+			<option value='4'>PHP</option>
+		</select>
+	</form>
+</body>
